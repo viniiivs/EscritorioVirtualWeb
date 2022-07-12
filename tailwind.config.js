@@ -7,9 +7,16 @@ module.exports = {
 			},
 			colors: {
 				'prog-dark-blue': '#022956',
+				'prog-light-blue': '#2E7EED',
 				'prog-gray': '#3F3F46',
 			},
 		},
+		fontFamily: {
+			poppins: ['Poppins', 'sans-serif'],
+		},
 	},
-	plugins: [],
+	plugins: [require('tailwind-scrollbar')],
+	variants: {
+		scrollbar: ['rounded'],
+	},
 };

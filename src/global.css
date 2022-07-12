@@ -2,5 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 body {
-  @apply bg-[#2E7EED] text-zinc-100;
+	@apply bg-prog-light-blue text-zinc-100 min-h-[100vh];
+}
+
+html {
+	@apply scroll-smooth;
 }

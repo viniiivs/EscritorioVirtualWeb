@@ -1,7 +1,7 @@
 export function WelcomeBox() {
 	return (
-		<div className="bg-prog-dark-blue rounded-lg h-5 md:h-40 md:w-[60%] text-2xl md:text-5xl flex items-center p-16 mt-24">
-			Olá, $User
+		<div className="bg-prog-dark-blue rounded-lg h-28 text-3xl grid grid-cols-1 items-center p-4 pl-16">
+			<span>Olá, $User</span>
 		</div>
 	);
 }
