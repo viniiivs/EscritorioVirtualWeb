@@ -2,6 +2,8 @@
 import { Fragment } from 'react';
 
 import logo from '../assets/logo.svg';
+import { CgProfile } from 'react-icons/cg'
+import { GoLogoGithub } from 'react-icons/go'
 import profilePicture from '../assets/img.png';
 import { GearSix, Moon } from 'phosphor-react';
 
@@ -10,7 +12,8 @@ export function Header() {
 		<nav className="fixed w-screen h-18 bg-white text-black flex items-center shadow-md shadow-[#2462B6]">
 			<div id="Logo" className="flex pl-[10%]">
 				<button>
-					<img className="w-40 h-10" src={logo}></img>
+					{/* <img className="w-40 h-10" src={logo}></img> */}
+					<GoLogoGithub className="w-40 h-10"/>
 				</button>
 			</div>
 			<div id="menuItens" className="hidden md:flex justify-center items-center flex-grow gap-6">
@@ -26,8 +29,9 @@ export function Header() {
 				<button className="w-8 h-8 rounded-md flex justify-center items-center justify-self-end outline-hidden hover:outline-offset-2 hover:outline outline-prog-light-blue">
 					<GearSix size={32} />
 				</button>
-				<button className="w-12 h-12 bg-prog-gray rounded-full">
-					<img className="w-12 h-12 rounded-full" src={profilePicture}></img>
+				<button className="w-12 h-12 rounded-full">
+					{/* <img className="w-12 h-12 rounded-full" src={profilePicture}></img> */}
+					<CgProfile className="w-12 h-12 rounded-full"/>
 				</button>
 			</div>
 		</nav>
