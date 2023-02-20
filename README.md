@@ -2,7 +2,7 @@
 Ferramenta para controle de solicitações e tarefas.
 
 Baseado no sistema da empresa onde trabalhei que utiliza um software legado, criei um protótipo com design atualizado onde o usuário pode visualizar de forma resumida as pendências de trabalho do dia a dia.
-Pretendo melhorar este projeto, tanto com as funcionalidades quanto visualmente.
+Pretendo melhorar este projeto, não apenas visualmente, mas também implementando funcionalidades.
 
 Próximas alterações:
 - Melhorar o esquema de cores, criando também um modo escuro.
