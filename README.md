@@ -1,7 +1,7 @@
 # EscritorioVirtualWeb
 Ferramenta para controle de solicitações e tarefas.
 
-Baseado no sistema da empresa onde trabalhei que utiliza um software legado, criei um protótipo com design atualizado onde o usuário pode visualizar de forma resumida as pendências de trabalho do dia a dia.
+Baseado no sistema da empresa onde trabalhei, que utiliza um software legado, criei um protótipo com design atualizado onde o usuário pode visualizar de forma resumida as pendências de trabalho do dia a dia.
 Pretendo melhorar este projeto, não apenas visualmente, mas também implementando funcionalidades.
 
 Próximas alterações:
